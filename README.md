@@ -1,21 +1,22 @@
-#Some demonstrations for algebraic surfaces.  
-
-Some demonstrations for algebraic surfaces. 
-
+# Some demonstrations for algebraic surfaces
 
 
 Better documentation will be written later.
 
 There are currently two scripts here:
 
-* The first one demonstrates how generic projections of smooth
-  surfaces from the projective space P^3 give a cusp point on a
-  branch curve (Arnold et al [[4]](#4) call this singularity a
+## Projections of surfaces, and cusps of the branch curve
+
+ This script demonstrates how **generic projections** of smooth
+  surfaces from the projective space P^3 give **cusp points** on a
+  branch curve (Arnold et al [[(4)]] call this singularity a
   "Whitney pleat", paragraph 1.6, page 14 )
 
-* The second one visualizes the pinch point of an algebraic surface
-(or, the Whitney umbrella surface)([Wikipedia: Pinch point][1], [Wikipedia:Whitney umbrella][2];
- Griffiths and Harris [[3]](#3); Arnold et al [[4]](#4) -- Part I, paragraph 1, page 24)
+# Pinch points of algebraic surfaces
+
+This script visualizes the pinch point of an algebraic surface
+(which is locally formally isomorphic to the Whitney umbrella surface)([Wikipedia: Pinch point][1], [Wikipedia:Whitney umbrella][2];
+ Griffiths and Harris, Chapter 4, paragraph 6,  "Ordinary Singularities of Surfaces", [[(3)]]; Arnold et al [[(4)]]-- Part I, paragraph 1, page 24)
 
 ## References
  [1]: https://en.wikipedia.org/wiki/Pinch_point_(mathematics)
@@ -35,25 +36,24 @@ There are currently two scripts here:
 
 The scripts are written in the [*surf* programming language](https://surf.sourceforge.net/) 
 
-**Sample output on YouTub **
+**Sample output on YouTube**
 
 * [ Cusp formation, semi-transparent version ](https://youtube.com/shorts/NIyOA3bNZXM)
 * [ Cusp formation, non-transparent version ](https://youtu.be/DXoM6hAJSo8 )
 * [ Whitney umbrella / pinch point of a surface, animated](https://youtu.be/OysHV_xufnU )
 
-**Some previes**
+## Some previews
 
-* Formation of a cusp:
+### Formation of a cusp:
 
  ![image: Formation of a cusp](formation-of-a-cusp-on-a-branch-curve/some-frames/transparent.005.jpg)
 
-* Pinch point:
+### Pinch point:
 
  ![image: Pinch point](whitney-umbrella.animated/some-frames/158.jpg)
 
 Videos on YouTube: 
 
-**Synopsis**
 
 **Usage**
 
