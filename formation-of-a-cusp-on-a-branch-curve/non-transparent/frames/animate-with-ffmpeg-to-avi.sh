@@ -1,0 +1,1 @@
+/home/leyenson/island/code/by-language/surf/demonstrations/some-demonstrations-for-algebraic-surfaces/formation-of-a-cusp-on-a-branch-curve/animate-with-ffmpeg-to-avi.sh

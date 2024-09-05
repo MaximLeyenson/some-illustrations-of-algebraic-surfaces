@@ -1,0 +1,1 @@
+/home/leyenson/island/code/by-language/surf/demonstrations/some-demonstrations-for-algebraic-surfaces/whitney-umbrella.animated/animate-with-ffmpeg-to-mp4.sh

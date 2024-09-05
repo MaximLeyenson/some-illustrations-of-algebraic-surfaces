@@ -1,0 +1,124 @@
+color_file_format = jpg;
+
+double Pi=2*arccos(0);
+
+clear_screen;
+clear_pixmap;
+
+width=400;
+height=400;
+
+// clip = none;
+
+// ------------------- initial rotation
+
+// definining the initial rotation (position) of the surface;
+// choosing them for the surface to look nice; see the next paragraph 
+
+
+// angle =  r/100  * Pi
+
+// int r1 = 30;
+// int r2 = 20;
+// int r3 = 5;
+
+int r1 = 0;
+int r2 = 0;
+int r3 = 0;
+
+rot_x= r1/100 * Pi;
+rot_y= r2/100 * Pi;
+rot_z= r3/100 * Pi;
+
+// ---------------------------------------------------------------------- 
+// -------- scaling
+// ---------------------------------------------------------------------- 
+
+double R = 2;
+         // intended cube of size [-R, +R]
+double sf = R/10;
+     // surf's internal scale factor is defined this way
+
+scale_x= sf;
+scale_y= sf;
+scale_z= sf;
+
+
+// ---------------------------------------------------------------------- 
+// ----- defining the surface
+// ---------------------------------------------------------------------- 
+
+// the universal cubic polynomial 
+
+poly s =  z^3 - x * z - y;
+surface = s;
+
+// ---------------------------------------------------------------------- 
+// ---- transparency module ---------------------------
+// ---------------------------------------------------------------------- 
+
+spec_z = 25.0;
+perspective=central;
+
+transparence=60;
+transmitted =70;
+thickness   =14;
+
+surface_red  =255;
+surface_green=100;
+surface_blue =130;
+inside_red   =255;
+inside_green =100;
+inside_blue  =130;
+
+// ---------------------------------------------------------------------- 
+//-- light
+// ---------------------------------------------------------------------- 
+
+illumination=ambient_light+
+             diffuse_light+
+             reflected_light+
+             transmitted_light;
+ambient=20;
+smoothness=30;
+
+light1_x=1-00;
+light1_y=100;
+light1_z=100;
+light1_vol=80;
+ 
+light3_x=100;
+light3_y=20;
+light3_z=50;
+light3_vol=60;
+
+ light8_x=-100;
+light8_y=100;
+light8_z=-100;
+light8_vol=0;
+
+
+
+// ---------------------------------------------------------------------- 
+// ---------- rotation loop 
+// ---------------------------------------------------------------------- 
+
+// making N frames
+int N = 200;
+
+int i=0;
+loop:
+      surface=rotate(s,2*Pi/N * i, xAxis); 
+             // rotate the surface; 
+             // one small rotation = 2pi/N
+             // should rotate around the x axis!! 
+      clear_screen;
+      draw_surface;        
+               // draw the surface
+      filename = "frames/transparent" + itostrn(3,i) + ".jpg" ;
+      save_color_image;
+		   // save the image
+      i = i + 1;
+if( i < N ) goto loop; 
+
+// ------------------------------------

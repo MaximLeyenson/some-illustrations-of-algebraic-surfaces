@@ -1,0 +1,74 @@
+color_file_format = jpg;        
+
+double Pi=2*arccos(0);
+
+clear_screen;
+clear_pixmap;
+
+width=400;
+height=400;
+
+// clip = none;
+
+// ---------------------------------------------------------------------- 
+// ------------------- setting initial rotation
+// ---------------------------------------------------------------------- 
+
+// angle =  r/100  * Pi
+
+int r1 = 30;     // for the initial position of the surface;
+int r2 = 20;     // choosing these rotations for the surface to look nice; see next paragraph 
+int r3 = 5;
+
+rot_x= r1/100 * Pi;
+rot_y= r2/100 * Pi;
+rot_z= r3/100 * Pi;
+
+// ---------------------------------------------------------------------- 
+// -------- scaling
+// ---------------------------------------------------------------------- 
+
+double R = 1; 
+         // intended cube of size [-R, +R]
+double sf = R/10;
+     // surf's internal scale factor is defined this way
+
+scale_x= sf;
+scale_y= sf;
+scale_z= sf;
+
+
+// ---------------------------------------------------------------------- 
+// ----- defining the surface
+// ---------------------------------------------------------------------- 
+
+poly s =  x^2 - y * z^2;
+surface = s;
+
+draw_surface;
+
+// ---------------------------------------------------------------------- 
+// ---------- rotation loop 
+// ---------------------------------------------------------------------- 
+
+// making N frames
+int number_of_frames = 100 ;
+
+double small_angle =  2 * Pi / number_of_frames ;     // 2 pi / N
+
+int i = 0;
+loop:
+      double rotation_angle = i * small_angle  ;
+      // f.e., 2 * Pi / 100 * i,
+      surface=rotate(s,  rotation_angle,  zAxis); // rotate the surface; 1 small rotation = 2pi/N
+      clear_screen;
+      draw_surface;
+               // draw the surface
+      filename = "frames/" + itostrn(3,i) + ".jpg" ;
+                    // ! need the extension in the Ubuntu's version of surf
+      save_color_image;                       
+		   // save the image
+      i = i + 1;
+if( i < number_of_frames ) goto loop; 
+
+// ------------------------------------
