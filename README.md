@@ -40,16 +40,15 @@ The scripts are written in the [*surf* programming language](https://surf.source
 
 ## Some previews
 
-### Formation of a cusp:
+### Formation of a cusp, one shot:
 
  ![image: Formation of a cusp](formation-of-a-cusp-on-a-branch-curve/some-frames/transparent.005.jpg)
 
 ### Formation of a cusp:
 
- ![image: Formation of a cusp,
-animation](https://drive.usercontent.google.com/download?id=1hzUZ8fKbLFwHHnKDeP1RyFnHtVDnrf44&export=download&authuser=0)
+ ![image: Formation of a cusp, animation in Google Drive](https://drive.usercontent.google.com/download?id=1hzUZ8fKbLFwHHnKDeP1RyFnHtVDnrf44&export=download&authuser=0)
 
- ![image: Formation of a cusp, animation 2](https://drive.google.com/file/d/1hzUZ8fKbLFwHHnKDeP1RyFnHtVDnrf44/view?usp=sharing)
+  (works in some browsers)
 
 ### Pinch point:
 
