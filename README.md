@@ -8,28 +8,24 @@ There are currently two scripts here:
 ## Projections of surfaces, and cusps of the branch curve
 
  This script demonstrates how **generic projections** of smooth
-  surfaces from the projective space P^3 give **cusp points** on a
-  branch curve (Arnold et al [[(4)]] call this singularity a
-  "Whitney pleat", paragraph 1.6, page 14 )
+  surfaces from the projective space P<sup>3</sup> give **cusp points** on a branch curve (Arnold et al[^4] call this singularity a "Whitney pleat", paragraph 1.6, page 14 )
 
 # Pinch points of algebraic surfaces
 
 This script visualizes the pinch point of an algebraic surface
 (which is locally formally isomorphic to the Whitney umbrella surface)([Wikipedia: Pinch point][1], [Wikipedia:Whitney umbrella][2];
- Griffiths and Harris, Chapter 4, paragraph 6,  "Ordinary Singularities of Surfaces", [[(3)]]; Arnold et al [[(4)]]-- Part I, paragraph 1, page 24)
+ Griffiths and Harris[^3], Chapter 4, paragraph 6,  "Ordinary Singularities of Surfaces"; Arnold et al[^4]-- Part I, paragraph 1, page 24.)
 
 ## References
  [1]: https://en.wikipedia.org/wiki/Pinch_point_(mathematics)
  [2]: https://en.wikipedia.org/wiki/Whitney_umbrella
 
- <a id="3">[3]</a> 
- Phillip Griffiths, Joseph Harris, "Principles of Algebraic Geometry", <br>
+ [^3]: Phillip Griffiths, Joseph Harris, "Principles of Algebraic Geometry", <br>
  Chapter 4, paragraph 6,  "Ordinary Singularities of Surfaces",  <br>
  page 617 (2011 ed.) --  <br>
  point of view of algebraic geometry;
 
- <a id="4">[4]</a> 
- Vladimir Arnold et al,  <br>
+ [^4]: Vladimir Arnold et al,  <br>
  Singularities of Differ entiable Maps, Volume 1, <br>
  Classification of Critical Points, Caustics and Wave Fronts, 2012,  <br>
  point of view of Singularity theory.
@@ -48,12 +44,16 @@ The scripts are written in the [*surf* programming language](https://surf.source
 
  ![image: Formation of a cusp](formation-of-a-cusp-on-a-branch-curve/some-frames/transparent.005.jpg)
 
+### Formation of a cusp:
+
+ ![image: Formation of a cusp,
+animation](https://drive.usercontent.google.com/download?id=1hzUZ8fKbLFwHHnKDeP1RyFnHtVDnrf44&export=download&authuser=0)
+
+ ![image: Formation of a cusp, animation 2](https://drive.google.com/file/d/1hzUZ8fKbLFwHHnKDeP1RyFnHtVDnrf44/view?usp=sharing)
+
 ### Pinch point:
 
  ![image: Pinch point](whitney-umbrella.animated/some-frames/158.jpg)
-
-Videos on YouTube: 
-
 
 **Usage**
 
