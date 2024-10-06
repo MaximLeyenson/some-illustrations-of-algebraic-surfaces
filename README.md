@@ -5,7 +5,7 @@ Better documentation will be written later.
 
 There are currently two scripts here:
 
-## Projections of surfaces, and cusps of the branch curve
+# Projections of surfaces, and cusps of the branch curve
 
  This script demonstrates how **generic projections** of smooth
   surfaces from the projective space P<sup>3</sup> give **cusp points** on a branch curve (Arnold et al[^4] call this singularity a "Whitney pleat", paragraph 1.6, page 14 )
