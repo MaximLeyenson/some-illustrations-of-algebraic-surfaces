@@ -44,7 +44,7 @@ The scripts are written in the [*surf* programming language](https://surf.source
 
  ![image: Formation of a cusp](formation-of-a-cusp-on-a-branch-curve/some-frames/transparent.005.jpg)
 
-### Formation of a cusp:
+### Formation of a cusp, animation:
 
  ![image: Formation of a cusp, animation in Google Drive](https://drive.usercontent.google.com/download?id=1hzUZ8fKbLFwHHnKDeP1RyFnHtVDnrf44&export=download&authuser=0)
 
