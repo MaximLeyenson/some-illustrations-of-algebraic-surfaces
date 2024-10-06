@@ -56,7 +56,7 @@ The scripts are written in the [*surf* programming language](https://surf.source
 
 ### Pinch point, animation:
 
- ![image: Pinch point, animation in Google Drive ](https://drive.usercontent.google.com/u/0/uc?id=1dZVecrGBvOeJ4J2JBg0k4lnrLDU67jp5&export=download&authuser=0)
+ ![image: Pinch point, animation in Google Drive ](https://drive.usercontent.google.com/download?id=1dZVecrGBvOeJ4J2JBg0k4lnrLDU67jp5&export=download&authuser=0)
 
   (works in some browsers)
 
